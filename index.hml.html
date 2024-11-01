@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Jessica Camila</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 100px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        article {
+            max-width: 1500px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .sobre-container {
+            display: flex;
+            align-items: flex-start; /* Alinhamento no topo */
+            gap: 50px; /* Aumenta o espaçamento entre a imagem e o texto */
+        }
+
+        .sobre-container img {
+            width: 190px; /* Reduz a largura da imagem */
+            height: auto;
+            border-radius: 10px; /* Adiciona bordas arredondadas à imagem */
+        }
+
+        .sobre-container p {
+            max-width: 850px;
+            text-align: left;
+            color: darkgray;
+            line-height: 2.8; /* Ajusta o espaçamento entre linhas */
+            margin-top: 0; /* Remove a margem superior */
+        }
+
+        .formacao {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .formacao-content {
+            flex: 1;
+        }
+
+        .menu-container {
+            margin-top: 10px;
+        }
+
+        .formacao h2, .formacao h3 {
+            color: #483D8B;
+            margin-bottom: 5px;
+        }
+
+        .formacao p {
+            color: darkgray;
+            margin: 0;
+        }
+
+        .formacao-item {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .sobre-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<article>
+    <h1 style="background-color:#483D8B; color: white; padding: 10px; text-align: center;">Sobre Mim</h1>
+    <div class="sobre-container">
+        <img src="img/foto.jpeg" alt="Descrição da imagem">
+
+        <p>Olá, sou Jessica Camila, natural de Pontes e Lacerda, onde também passei grande parte da minha infância e
+            adolescência em Vale de São Domingos, município vizinho. Atualmente, resido em Pontes e Lacerda e sou
+            graduada em Tecnologia de Redes de Computadores pelo Instituto Federal de Mato Grosso (IFMT), Campus Pontes e Lacerda.
+            Neste momento, estou cursando o Bacharelado em Sistemas de Informação, também no IFMT, Campus Pontes e Lacerda, Fronteira Oeste.
+            Desejo tornar uma desenvolvedora Full Stack e futura doutora em Engenharia da Computação.</p>
+    </div>
+
+    <div class="formacao">
+        <div class="formacao-content">
+            <h2>Formação</h2>
+
+            <div class="formacao-item">
+                <h3>2002-2007</h3>
+                <p><b>Escola Municipal Euclides da Cunha</b> <br> Ensino Fundamental</p>
+            </div>
+
+            <div class="formacao-item">
+                <h3>2008-2011</h3>
+                <p><b>Escola Estadual Rainha da Paz</b> <br>Ensino Fundamental</p>
+            </div>
+
+            <div class="formacao-item">
+                <h3>2012-2014</h3>
+                <p><b>Escola Estadual Rainha da Paz</b> <br> Ensino Médio</p>
+            </div>
+
+            <div class="formacao-item">
+                <h3>2018-2022</h3>
+                <p><b>IFMT - Instituto Federal de Mato Grosso</b> <br>Tecnologia em Redes de Computadores</p>
+            </div>
+
+            <div class="formacao-item">
+                <h3>2023-2026</h3>
+                <p><b>IFMT - Instituto Federal de Mato Grosso</b> <br>Bacharelado em Sistemas de Informação</p>
+            </div>
+        </div>
+
+        <div class="menu-container">
+            <h2>Entre em Contato</h2>
+            <p>Estou nas seguintes plataformas:</p>
+            <ul style="list-style-type: none; padding: 0;">
+                <li>
+                    <img src="img/logolates.png" alt="Lattes" style="width: 30px; height: 25px; margin-right: 5px;">
+                    <a href="http://lattes.cnpq.br/3412538123450447">Lattes</a>
+                </li>
+                <li>
+                    <img src="img/logoemail.png" alt="Email" style="width: 30px; height: 25px; margin-right: 5px;">
+                    <a href="mailto:jessica.camilajessica998@gmail.com">Email</a>
+                </li>
+                <li>
+                    <img src="img/logolikendin.png" alt="Linkedin" style="width: 30px; height: 25px; margin-right: 5px;">
+                    <a href="https://www.linkedin.com/in/jessica-camila-738a96334">LinkedIn</a>
+                </li>
+                <li>
+                    <img src="img/logoinstagran.png" alt="Instagram" style="width: 30px; height: 25px; margin-right: 5px;">
+                    <a href="https://www.instagram.com/jessica-camila-738a96334">Instagram</a>
+                </li>
+                <li>
+                    <img src="img/logogit.png" alt="GitHub" style="width: 30px; height: 25px; margin-right: 5px;">
+                    <a href="https://github.com/Jcamila1/htmljessica.git">GitHub</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</article>
+
+</body>
+</html>
